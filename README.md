@@ -50,130 +50,130 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 ## Logic Gates
 
 ### NAND Gate
-<img src="logic_gates/nand.png" width="500">
+<img src="logic_gates/nand.png" width="400">
 2 components used. This is the simplest possible solution!
 
 ### Invert
-<img src="logic_gates/invert.png" width="500">
+<img src="logic_gates/invert.png" width="400">
 1 component used. 1 NAND gate in total. This is optimal!
 
 ### AND Gate
-<img src="logic_gates/and.png" width="500">
+<img src="logic_gates/and.png" width="400">
 2 components used. 2 NAND gates in total. This is optimal!
 
 ### OR Gate
-<img src="logic_gates/or.png" width="500">
+<img src="logic_gates/or.png" width="400">
 3 components used. 3 NAND gates in total. This is optimal!
 
 ### XOR Gate
-<img src="logic_gates/xor.png" width="500">
+<img src="logic_gates/xor.png" width="400">
 4 components used. 4 NAND gates in total. This is optimal!
 
 
 ## Arithmetic
 
 ### Half Adder
-<img src="arithmetic/half_adder.png" width="500">
+<img src="arithmetic/half_adder.png" width="400">
 5 components used. 5 NAND gates in total. This is optimal!
 
 ### Full Adder
-<img src="arithmetic/full_adder.png" width="500">
+<img src="arithmetic/full_adder.png" width="400">
 9 components used. 9 NAND gates in total. This is optimal!
 
 ### Multi-bit Adder
-<img src="arithmetic/multibit_adder.png" width="500">
+<img src="arithmetic/multibit_adder.png" width="400">
 2 components used. 18 NAND gates in total. This is optimal!
 
 ### Increment
-<img src="arithmetic/increment.png" width="500">
+<img src="arithmetic/increment.png" width="400">
 2 components used. (Not counting 0 which does not contain any logic.) 145 NAND gates in total. This is the simplest possible solution!
 
 ### Subtraction
-<img src="arithmetic/subtraction.png" width="500">
+<img src="arithmetic/subtraction.png" width="400">
 3 components used. (Not counting 0 which does not contain any logic.) 161 NAND gates in total. This is the simplest possible solution!
 
 ### Equal to Zero
-<img src="arithmetic/equal_to_zero.png" width="500">
+<img src="arithmetic/equal_to_zero.png" width="400">
 4 components used. 10 NAND gates in total. This is optimal!
 
 ### Less than Zero
-<img src="arithmetic/less_than_zero.png" width="500">
+<img src="arithmetic/less_than_zero.png" width="400">
 0 components used. (Not counting splitter which does not contain any logic.) 0 NAND gates in total. This is the simplest possible solution!
 
 
 ## Switching
 
 ### Selector
-<img src="switching/selector.png" width="500">
+<img src="switching/selector.png" width="400">
 4 components used. 4 NAND gates in total. This is optimal!
 
 ### Switch
-<img src="switching/switch.png" width="500">
+<img src="switching/switch.png" width="400">
 4 components used. 4 NAND gates in total. This is optimal!
 
 
 ## Arithmetic Logic Unit
 
 ### Logic Unit
-<img src="alu/logic_unit.png" width="500">
+<img src="alu/logic_unit.png" width="400">
 7 components used. 352 NAND gates in total. This is the simplest possible solution!
 
 ### Arithmetic Unit
-<img src="alu/arithmetic_unit.png" width="500">
+<img src="alu/arithmetic_unit.png" width="400">
 5 components used. (Not counting 0 which does not contain any logic.) 434 NAND gates in total. This is the simplest possible solution!
 
 ### ALU
-<img src="alu/alu.png" width="500">
+<img src="alu/alu.png" width="400">
 6 components used. (Not counting 0 which does not contain any logic.) 1042 NAND gates in total. This is the simplest possible solution!
 
 ### Condition
-<img src="alu/condition.png" width="500">
+<img src="alu/condition.png" width="400">
 8 components used. (Not counting is neg which does not contain any logic.) 56 NAND gates in total. This is optimal!
 
 
 ## Memory
 
 ### Latch
-<img src="memory/latch.png" width="500">
+<img src="memory/latch.png" width="400">
 1 component used. 4 NAND gates in total. This is optimal!
 
 ### Data Flip-Flop
-<img src="memory/data_flipflop.png" width="500">
+<img src="memory/data_flipflop.png" width="400">
 5 components used. 13 NAND gates in total. This uses the fewest possible components. (But it is possible to solve with a lower total of NAND gates.)
 
 ### Register
-<img src="memory/register.png" width="500">
+<img src="memory/register.png" width="400">
 2 components used. 26 NAND gates in total. This is the simplest possible solution!
 
 ### Counter
-<img src="memory/counter.png" width="500">
+<img src="memory/counter.png" width="400">
 4 components used. (Not counting 0 which does not contain any logic.) 418 NAND gates in total. This is the simplest possible solution!
 
 ### RAM
-<img src="memory/ram.png" width="500">
+<img src="memory/ram.png" width="400">
 4 components used. 484 NAND gates in total. This is the simplest possible solution!
 
 
 ## Processor
 
 ### Combined Memory
-<img src="processor/combined_memory.png" width="500">
+<img src="processor/combined_memory.png" width="400">
 3 components used. 416 NAND gates in total. And 123904 for each kilobyte of RAM. This is the simplest possible solution!
 
 ### Instruction
-<img src="processor/instruction.png" width="500">
+<img src="processor/instruction.png" width="400">
 3 components used. (Not counting splitter which does not contain any logic.) 1162 NAND gates in total.
 
 ### Control Unit
-<img src="processor/control_unit.png" width="500">
+<img src="processor/control_unit.png" width="400">
 10 components used. (Not counting splitter and 0 which does not contain any logic.) 1297 NAND gates in total.
 
 ### Computer
-<img src="processor/computer.png" width="500">
+<img src="processor/computer.png" width="400">
 4 components used. (Not counting clock which does not contain any logic.) 2131 NAND gates in total. And 123904 for each kilobyte of RAM. (ROM storage not counted) This is the simplest possible solution!
 
 ### Input and Output
-<img src="processor/input_output.png" width="500">
+<img src="processor/input_output.png" width="400">
 3 components used. (Not counting lamp and button and bundler and splitter which does not contain any logic.) 6 NAND gates in total.
 
 
