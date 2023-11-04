@@ -74,20 +74,20 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 ## Arithmetic Logic Unit
 
 ### Logic Unit
-7 components, 352 NANDs
 ![Logic Unit](alu/logic_unit.png)
+7 components used. 352 NAND gates in total. This is the simplest possible solution!
 
 ### Arithmetic Unit
-4 components, 411 NANDs
 ![Arithmetic Unit](alu/arithmetic_unit.png)
+5 components used. (Not counting 0 which does not contain any logic.) 434 NAND gates in total. This is the simplest possible solution!
 
 ### ALU
-7 components, 669 NANDs
 ![ALU](alu/alu.png)
+6 components used. (Not counting 0 which does not contain any logic.) 1042 NAND gates in total. This is the simplest possible solution!
 
 ### Condition
-8 components, 56 NANDs
 ![Condition](alu/condition.png)
+8 components used. (Not counting is neg which does not contain any logic.) 56 NAND gates in total. This is optimal!
 
 
 ## Memory
