@@ -10,22 +10,23 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 
 ### NAND Gate
 ![NAND Gate](logic_gates/nand.png)
+2 components used. This is the simplest possible solution!
 
 ### Invert
-1 component, 1 NAND
 ![Invert](logic_gates/invert.png)
+1 component used. 1 NAND gate in total. This is optimal!
 
 ### AND Gate
-2 components, 2 NANDs
 ![AND Gate](logic_gates/and.png)
+2 components used. 2 NAND gates in total. This is optimal!
 
 ### OR Gate
-3 components, 3 NANDs
 ![OR Gate](logic_gates/or.png)
+3 components used. 3 nand gates in total. This is optimal!
 
 ### XOR Gate
-3 components, 6 NANDs
 ![XOR Gate](logic_gates/xor.png)
+4 components used. 4 nand gates in total. This is optimal!
 
 
 ## Arithmetic
