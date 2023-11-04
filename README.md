@@ -22,42 +22,42 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 
 ### OR Gate
 ![OR Gate](logic_gates/or.png)
-3 components used. 3 nand gates in total. This is optimal!
+3 components used. 3 NAND gates in total. This is optimal!
 
 ### XOR Gate
 ![XOR Gate](logic_gates/xor.png)
-4 components used. 4 nand gates in total. This is optimal!
+4 components used. 4 NAND gates in total. This is optimal!
 
 
 ## Arithmetic
 
 ### Half Adder
-2 components, 6 NANDs
 ![Half Adder](arithmetic/half_adder.png)
+5 components used. 5 NAND gates in total. This is optimal!
 
 ### Full Adder
-3 components, 15 NANDs
 ![Full Adder](arithmetic/full_adder.png)
+9 components used. 9 NAND gates in total. This is optimal!
 
 ### Multi-bit Adder
-18 components, 18 NANDs
-![Multi-bit Adder](arithmetic/multi_bit_adder.png)
+![Multi-bit Adder](arithmetic/multibit_adder.png)
+2 components used. 18 NAND gates in total. This is optimal!
 
 ### Increment
-2 components, 145 NANDs
 ![Increment](arithmetic/increment.png)
+2 components used. (Not counting 0 which does not contain any logic.) 145 NAND gates in total. This is the simplest possible solution!
 
 ### Subtraction
-3 components, 161 NANDs
 ![Subtraction](arithmetic/subtraction.png)
+3 components used. (Not counting 0 which does not contain any logic.) 161 NAND gates in total. This is the simplest possible solution!
 
 ### Equal to Zero
-4 components, 10 NANDs
 ![Equal to Zero](arithmetic/equal_to_zero.png)
+4 components used. 10 nand gates in total. This is optimal!
 
 ### Less than Zero
-0 components, 0 NANDs
 ![Less than Zero](arithmetic/less_than_zero.png)
+0 components used. (Not counting splitter which does not contain any logic.) 0 NAND gates in total. This is the simplest possible solution!
 
 
 ## Switching
