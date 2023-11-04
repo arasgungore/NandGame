@@ -53,7 +53,7 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 
 ### Equal to Zero
 ![Equal to Zero](arithmetic/equal_to_zero.png)
-4 components used. 10 nand gates in total. This is optimal!
+4 components used. 10 NAND gates in total. This is optimal!
 
 ### Less than Zero
 ![Less than Zero](arithmetic/less_than_zero.png)
@@ -63,12 +63,12 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 ## Switching
 
 ### Selector
-4 components, 4 NANDs
 ![Selector](switching/selector.png)
+4 components used. 4 NAND gates in total. This is optimal!
 
 ### Switch
-3 components, 5 NANDs
 ![Switch](switching/switch.png)
+4 components used. 4 NAND gates in total. This is optimal!
 
 
 ## Arithmetic Logic Unit
