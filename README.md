@@ -93,24 +93,24 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 ## Memory
 
 ### Latch
-1 component, 4 NANDs
 ![Latch](memory/latch.png)
+1 component used. 4 NAND gates in total. This is optimal!
 
 ### Data Flip-Flop
-4 components, 11 NANDs
-![Data Flip-Flop](memory/data_flip_flop.png)
+![Data Flip-Flop](memory/data_flipflop.png)
+5 components used. 13 NAND gates in total. This uses the fewest possible components. (But it is possible to solve with a lower total of NAND gates.)
 
 ### Register
-2 components, 18 NANDs
 ![Register](memory/register.png)
+2 components used. 26 NAND gates in total. This is the simplest possible solution!
 
 ### Counter
-4 components, 305 NANDs
 ![Counter](memory/counter.png)
+4 components used. (Not counting 0 which does not contain any logic.) 418 NAND gates in total. This is the simplest possible solution!
 
 ### RAM
-4 components, 260 NANDs
 ![RAM](memory/ram.png)
+4 components used. 484 NAND gates in total. This is the simplest possible solution!
 
 
 ## Processor
