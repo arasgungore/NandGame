@@ -116,24 +116,24 @@ Solutions for The Nand Game, a game that teaches the fundamentals of computing b
 ## Processor
 
 ### Combined Memory
-3 components, 192 NANDs
 ![Combined Memory](processor/combined_memory.png)
+3 components used. 416 NAND gates in total. And 123904 for each kilobyte of RAM. This is the simplest possible solution!
 
 ### Instruction
-3 components, 833 NANDs
 ![Instruction](processor/instruction.png)
+3 components used. (Not counting splitter which does not contain any logic.) 1162 NAND gates in total.
 
 ### Control Unit
-6 components, 923 NANDs
 ![Control Unit](processor/control_unit.png)
+10 components used. (Not counting splitter and 0 which does not contain any logic.) 1297 NAND gates in total.
 
 ### Computer
-5 components, 1248 NANDs
 ![Computer](processor/computer.png)
+4 components used. (Not counting clock which does not contain any logic.) 2131 NAND gates in total. And 123904 for each kilobyte of RAM. (ROM storage not counted) This is the simplest possible solution!
 
 ### Input and Output
-2 components, 65 NANDs
 ![Input and Output](processor/input_output.png)
+3 components used. (Not counting lamp and button and bundler and splitter which does not contain any logic.) 6 NAND gates in total.
 
 
 
